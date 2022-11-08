@@ -24,17 +24,15 @@ jobs:
           node-version: 16.x
           cache: pnpm
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
+        run: pnpm install --no-frozen-lockfile
 
       - name: Lint
-        run: nr lint
+        run: pnpm run lint
 
-  typecheck:
+  test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -47,44 +45,11 @@ jobs:
           node-version: 16.x
           cache: pnpm
 
-      - name: Setup
-        run: npm i -g @antfu/ni
-
       - name: Install
-        run: nci
-
-      - name: Typecheck
-        run: nr typecheck
-
-  test:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node: [14.x, 16.x]
-        os: [ubuntu-latest, windows-latest, macos-latest]
-      fail-fast: false
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-
-      - name: Set node ${{ matrix.node }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node }}
-          cache: pnpm
-
-      - name: Setup
-        run: npm i -g @antfu/ni
-
-      - name: Install
-        run: nci
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build
-        run: nr build
+        run: pnpm run build
 
       - name: Test
-        run: nr test
+        run: pnpm run test
