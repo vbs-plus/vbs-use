@@ -2,13 +2,32 @@
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",
-    "lib": ["esnext"],
+    "lib": [
+      "esnext",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "skipDefaultLibCheck": true
-  }
+    "skipDefaultLibCheck": true,
+    "types": [
+      "vitest",
+      "vitest/globals",
+      "node"
+    ],
+    "paths": {
+      "vbs-use": ["./src/index.ts"]
+    }
+  },
+    "exclude": [
+      "node_modules",
+      "**/*.md",
+      "**/dist",
+      "packages/.test",
+      "packages/_docs"
+    ]
 }

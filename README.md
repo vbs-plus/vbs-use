@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center">Vbs-Use(WIP)</h1>
+<h1 align="center">VBS-Use(WIP)</h1>
 <p align="center">VBS Vue Composition Utilities for Vue 2 and 3(WIP)</p>
 </p>
 
