@@ -1,6 +1,6 @@
 <p align="center">
-<h1 align="center">VBS-Use(WIP)</h1>
-<p align="center">VBS Vue Composition Utilities for Vue 2 and 3(WIP)</p>
+<h1 align="center">VbsUse(WIP)</h1>
+<p align="center">VbsUse Composition Utilities for Vue 2 and 3(WIP)</p>
 </p>
 
 ## TODO LIST
