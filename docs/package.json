@@ -1,8 +1,8 @@
 {
   "name": "@vbs-use/docs",
-  "description": "VbsUse docs",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
+  "description": "VbsUse docs",
   "scripts": {
     "dev": "vitepress dev --port 8888 --open",
     "build": "vitepress build",
