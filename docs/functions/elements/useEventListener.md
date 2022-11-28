@@ -10,7 +10,7 @@ import { useEventListener } from 'vbs-use'
 useEventListener(document, 'click', (evt) => { console.log(evt) })
 ```
 
-Use a ref as the event target, `useEventTarget` will unregister the previous event and register the new one when you change the target.
+Use a ref as the event target, `useEventListener` will unregister the previous event and register the new one when you change the target.
 
 ```ts
 import { useEventListener } from 'vbs-use'
