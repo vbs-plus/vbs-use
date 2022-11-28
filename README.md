@@ -12,15 +12,15 @@ Elements:
 4. useElementVisibility: Tracks the visibility of an element within the viewport.
 5. useMouseInElement: Reactive mouse position related to an element.
 6. useWindowScroll: Reactive window scroll.
+7. useEventListener：Use EventListener with ease. Register using addEventListener on mounted, and removeEventListener automatically on unmounted.
 
 Browser
 1. useBreakpoints: Reactive viewport breakpoints.
 2. useBrowserLocation: Reactive browser location.
 3. useClipboard： Reactive Clipboard API.
-4. useEventListener：Use EventListener with ease. Register using addEventListener on mounted, and removeEventListener automatically on unmounted.
-5. useFullscreen: Reactive Fullscreen API. 
-6. useImage： Reactive load an image in the browser, you can wait the result to display it or show a fallback.
-7. useUrlSearchParams: Reactive URLSearchParams.
+4. useFullscreen: Reactive Fullscreen API. 
+5. useImage： Reactive load an image in the browser, you can wait the result to display it or show a fallback.
+6. useUrlSearchParams: Reactive URLSearchParams.
 
 Behavior:
 1. onClickOutside: Listen for clicks outside of an element. Useful for modal or dropdown.
