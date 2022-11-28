@@ -14,6 +14,10 @@ const functions = [
         text: 'UseActiveElement',
         link: '/functions/elements/useActiveElement',
       },
+      {
+        text: 'UseEventListener',
+        link: '/functions/elements/UseEventListener',
+      },
     ],
   },
   {

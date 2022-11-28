@@ -20,8 +20,8 @@ body {
   /* fix contrast on gray cards: used by --vp-c-text-2 */
   /* --vp-c-text-light-2: rgba(56 56 56 / 70%); */
   --vp-custom-title-text: #606266;
-  --vp-layout-max-width: 1580px;
-  --vp-sidebar-width: 252px;
+  /* --vp-layout-max-width: 1580px; */
+  /* --vp-sidebar-width: 252px; */
   --n-td-color: #fff;
   --n-td-color-hover: rgb(247, 247, 250, 1);
   --n-td-color-modal: #fff;
