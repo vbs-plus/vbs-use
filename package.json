@@ -46,7 +46,7 @@
     "release": "bumpp && npm publish --access public",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typeCheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@evan-yang/eslint-config": "^1.0.0",
@@ -70,7 +70,8 @@
     "vitepress": "^1.0.0-alpha.28",
     "vitest": "^0.23.4",
     "vue": "^3.2.45",
-    "za-zi": "latest"
+    "za-zi": "latest",
+    "jsdom": "^20.0.2"
   },
   "pnpm": {
     "overrides": {
